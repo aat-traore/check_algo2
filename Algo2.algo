@@ -1,0 +1,36 @@
+
+ALGORITHM  Algo2
+VAR
+tab1:Array_OF Interger[6];
+tab2:Array_OF Interger[6];
+com:Array_OF Interger[];
+t,i,j,k,sum:INTEGER:=0;
+
+BEGIN
+Read(tab1[i],tab2[j])
+WHILE (i < tab1.length && j < tab2.lenght) DO
+    t=tab1[i]+tab2[j]
+      if(tab1[i]=== tab2[j])
+    com.push(tab1[i])
+    i++;
+    j++;
+FOR k FROM 0 TO com.length STEP step  DO
+    sum+=com[k]
+END_FOR
+END_WHILE
+
+write(t-sum)
+// somme des elements en commun
+WHILE (i < tab1.length && j < tab2.lenght) DO
+    if(tab1[i]=== tab2[j])
+    com.push(tab1[i])
+    i++;
+    j++;
+FOR k FROM 0 TO com.length STEP step  DO
+    sum+=com[k]
+END_FOR
+END_WHILE
+    
+END
+ 
+
